@@ -1,4 +1,4 @@
-# AngularModulr
+# AngularSilverArrow
 
 This project was generated with [@angular/cli] version 1.3.2.
 
