@@ -47,3 +47,29 @@
 .footer a:link {
     color: #454a4c;
 }
+
+@media screen and (max-width: 768px) {
+    .footer .col-1 .flex-row {
+        justify-content: center;
+    }
+    .footer .col-1 {
+        align-items: center;
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .footer .col-2 {
+        align-items: center;;
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .footer .col-3 {
+        align-items: flex-start;
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .footer .col-4 {
+        align-items: flex-start;
+        flex-basis: 100%;
+        text-align: center;
+    }
+}

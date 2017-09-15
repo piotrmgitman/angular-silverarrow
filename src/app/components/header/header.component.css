@@ -10,7 +10,8 @@
     border-left: 4px solid #11CA93;
 }
 .crown {
-    background-image: url('../../../assets/images/crown.png');
-    width: 16px;
-    height: 16px;
+    height: 21px;
+    width: 24px;
+    vertical-align: bottom;
+    padding: 0 5px;
 }
