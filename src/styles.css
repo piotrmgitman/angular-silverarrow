@@ -32,3 +32,21 @@ body {
 
     padding: 10px 0;
 }
+
+/* main */
+.main {
+    flex: 1;
+
+    font-weight: 400;
+    line-height: 1.25;
+    padding: 0 30px;
+}
+.main h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+.main h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
