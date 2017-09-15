@@ -1,0 +1,16 @@
+/* header */
+.header {
+    align-items: center; /* because we are in flex-direction: row */
+
+    border-top: 10px solid #0077FF;
+    min-height: 40px;
+    padding: 0 30px;
+}
+.header .row-1 {
+    border-left: 4px solid #11CA93;
+}
+.crown {
+    background-image: url('../../../assets/images/crown.png');
+    width: 16px;
+    height: 16px;
+}

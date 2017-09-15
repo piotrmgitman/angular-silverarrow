@@ -1,0 +1,19 @@
+<section class="flex-row footer">
+  <div class="col-1">
+    <ul class="flex-row">
+      <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/help']">Help</a></li>
+      <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/cookies']">Cookies</a></li>
+      <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/policy']">Privacy policy</a></li>
+      <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/terms']">Terms &amp; conditions</a></li>
+    </ul>
+  </div>
+  <div class="col-2" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+    <a [routerLink]="['/']"><img src="assets/images/logo.png" alt=""></a>
+  </div>
+  <div class="col-3">
+    All content is available under the Open Government Licence v3.0, except where otherwise stated
+  </div>
+  <div class="col-4">
+    © Crown copyrightd
+  </div>
+</section>

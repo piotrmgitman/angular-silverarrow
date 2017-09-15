@@ -1,0 +1,49 @@
+/* flex */
+.flex-row {
+    align-items: flex-end;
+}
+
+/* footer */
+.footer {
+    align-content: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+
+    border-top: 1px solid #B4B4B4;
+    background-color: #dee0e2;
+    line-height: 1.25;
+    min-height: 200px;
+    padding: 0 30px;
+}
+.footer .col-1 {
+    align-items: center;
+    flex-basis: 80%;
+}
+.footer .col-2 {
+    align-items: center;
+    flex-basis: 20%;
+    text-align: center;
+}
+.footer .col-3 {
+    align-items: flex-start;
+    flex-basis: 80%;
+}
+.footer .col-4 {
+    align-items: flex-start;
+    flex-basis: 20%;
+    text-align: center;
+}
+.footer ul li {
+    padding-right: 15px;
+}
+.footer ul {
+    font-size: 16px;
+    font-weight: 400;
+    list-style: none;
+    padding: 0;
+    text-transform: none;
+}
+.footer a, .footer a:visited,
+.footer a:link {
+    color: #454a4c;
+}
